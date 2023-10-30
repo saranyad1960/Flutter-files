@@ -135,6 +135,7 @@ class PersonalDetailsState extends State<PersonalDetails> with SingleTickerProvi
                           inputFormatters: [
                             FilteringTextInputFormatter.allow(RegExp(r'[0-9]')),
                           ],
+
                           decoration: InputDecoration(
                             counterText: "",
                             focusedBorder: OutlineInputBorder(
